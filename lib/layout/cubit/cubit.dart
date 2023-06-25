@@ -5,6 +5,7 @@ import 'package:ozkor_app/layout/cubit/states.dart';
 import 'package:ozkor_app/screens/almasaa/almasaa.dart';
 import 'package:ozkor_app/screens/alsabah/alsabah.dart';
 import 'package:ozkor_app/screens/home/home.dart';
+import 'package:ozkor_app/screens/tasbeeh/tasbeeh.dart';
 
 class ZekrCubit extends Cubit<ZekrStates> {
   ZekrCubit() : super(ZekrInitialState());
@@ -14,6 +15,7 @@ class ZekrCubit extends Cubit<ZekrStates> {
   int currentIndex = 0;
   List<Widget> screens = [
     Home(),
+    TasbeehScreen(),
     AlsabahScreen(),
     AlmasaaScreen(),
   ];

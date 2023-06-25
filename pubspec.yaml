@@ -40,7 +40,6 @@ dependencies:
   page_transition: ^2.0.9
   flutter_islamic_icons: ^1.0.2
   line_icons: ^2.0.1
-  fluttericon: ^2.0.0
   google_nav_bar: ^5.0.6
 
 dev_dependencies:
@@ -81,17 +80,16 @@ flutter:
   # "family" key with the font family name, and a "fonts" key with a
   # list giving the asset and other descriptors for the font. For
   # example:
-  # fonts:
-  #   - family: Schyler
-  #     fonts:
-  #       - asset: fonts/Schyler-Regular.ttf
-  #       - asset: fonts/Schyler-Italic.ttf
-  #         style: italic
-  #   - family: Trajan Pro
-  #     fonts:
-  #       - asset: fonts/TrajanPro.ttf
-  #       - asset: fonts/TrajanPro_Bold.ttf
-  #         weight: 700
-  #
+  fonts:
+    - family: AGA-Islamic-Phrases
+      fonts:
+        - asset: assets/fonts/AGA-Islamic-Phrases-2.ttf
+    - family: fotograami-separator
+      fonts:
+        - asset: assets/fonts/fotograami-separator-01.ttf
+    - family: UthmanicHafs_V20
+      fonts:
+        - asset: assets/fonts/UthmanicHafs_V20.ttf
+
   # For details regarding fonts from package dependencies,
   # see https://flutter.dev/custom-fonts/#from-packages

@@ -1,9 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
+import 'package:line_icons/line_icons.dart';
 import 'package:ozkor_app/layout/cubit/cubit.dart';
 import 'package:ozkor_app/layout/cubit/states.dart';
 import 'package:google_nav_bar/google_nav_bar.dart';
-
+import 'package:flutter_islamic_icons/flutter_islamic_icons.dart';
 class Layout extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
@@ -41,6 +42,10 @@ class Layout extends StatelessWidget {
                     GButton(
                       icon: Icons.home_rounded,
                       text: 'Home',
+                    ),
+                    GButton(
+                      icon: FlutterIslamicIcons.solidTasbih3,
+                      text: 'تسبيح',
                     ),
                     GButton(
                       icon: Icons.sunny,
